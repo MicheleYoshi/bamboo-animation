@@ -1,0 +1,261 @@
+.container {
+    height: 600px;
+    width: 400px;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    position: absolute;
+}
+
+.bamboo-pic {
+    height: 600px;
+    width: 400px;
+    z-index: 0;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+}
+
+#leaves {
+    z-index: 15;
+    animation-direction: normal;
+}
+
+.bamboo-leaf-1 {
+    height: 60px;
+    width: 30px;
+    transform: rotate(90deg);
+    position: absolute;
+    left: -50px;
+    top: -15px;
+    z-index: 5;
+    animation-name: blow1;
+    -webkit-aimation-name: blow1;
+    animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes blow1 {
+    0% {
+        left: -500;
+        top: 100;
+    }
+    100% {
+        left: 425px;
+        top: 360px;
+    }
+}
+
+@-webkit-keyframes blow1 {
+    0% {
+        left: -500;
+        top: 100;
+    }
+    100% {
+        left: 425px;
+        top: 360px;
+    }
+}
+
+.bamboo-leaf-2 {
+    height: 60px;
+    width: 30px;
+    transform: rotate(90deg);
+    position: absolute;
+    left: -50px;
+    top: 150px;
+    z-index: 5;
+    animation-name: blow2;
+    -webkit-aimation-name: blow2;
+    animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+    animation-delay: 1.4s;
+    -webkit-animation-delay: 1.4s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes blow2 {
+    0% {
+        left: 0;
+        top: 300;
+    }
+    100% {
+        left: 425px;
+        top: 500px;
+    }
+}
+
+@-webkit-keyframes blow2 {
+    0% {
+        left: 0;
+        top: 300;
+    }
+    100% {
+        left: 425px;
+        top: 500px;
+    }
+}
+
+.bamboo-leaf-3 {
+    height: 60px;
+    width: 30px;
+    transform: rotate(90deg);
+    position: absolute;
+    left: -50px;
+    top: -15px;
+    z-index: 8;
+    animation-name: blow3;
+    -webkit-aimation-name: blow3;
+    animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+    animation-delay: 0.75s;
+    -webkit-animation-delay: 0.75s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes blow3 {
+    0% {
+        left: 0;
+        top: 100;
+    }
+    100% {
+        left: 300px;
+        top: 620px;
+    }
+}
+
+@-webkit-keyframes blow3 {
+    0% {
+        left: 0;
+        top: 100;
+    }
+    100% {
+        left: 300px;
+        top: 620px;
+    }
+}
+
+.bamboo-leaf-4 {
+    height: 60px;
+    width: 30px;
+    transform: rotate(90deg);
+    position: absolute;
+    left: -50px;
+    top: -15px;
+    z-index: 8;
+    animation-name: blow4;
+    -webkit-aimation-name: blow4;
+    animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+    animation-delay: 2.2s;
+    -webkit-animation-delay: 2.2s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes blow4 {
+    0% {
+        left: 0;
+        top: 50;
+    }
+    100% {
+        left: 500px;
+        top: 150px;
+    }
+}
+
+@-webkit-keyframes blow4 {
+    0% {
+        left: 0;
+        top: 50;
+    }
+    100% {
+        left: 500px;
+        top: 150px;
+    }
+}
+
+.bamboo-leaf-5 {
+    height: 60px;
+    width: 30px;
+    transform: rotate(90deg);
+    position: absolute;
+    left: -50px;
+    top: -15px;
+    z-index: 8;
+    animation-name: blow5;
+    -webkit-aimation-name: blow5;
+    animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+    animation-delay: 4s;
+    -webkit-animation-delay: 4s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes blow5 {
+    0% {
+        left: 0;
+        top: 250;
+    }
+    100% {
+        left: 500px;
+        top: 150px;
+    }
+}
+
+@-webkit-keyframes blow5 {
+    0% {
+        left: 0;
+        top: 250;
+    }
+    100% {
+        left: 500px;
+        top: 150px;
+    }
+}
+
+.bamboo-leaf-6 {
+    height: 60px;
+    width: 30px;
+    transform: rotate(90deg);
+    position: absolute;
+    left: -50px;
+    top: -15px;
+    z-index: 8;
+    animation-name: blow6;
+    -webkit-aimation-name: blow6;
+    animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+    animation-delay: 0.75s;
+    -webkit-animation-delay: 0.75s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+
+@keyframes blow6 {
+    0% {
+        left: 0;
+        top: 100;
+    }
+    100% {
+        left: 300px;
+        top: 620px;
+    }
+}
+
+@-webkit-keyframes blow6 {
+    0% {
+        left: 0;
+        top: 100;
+    }
+    100% {
+        left: 300px;
+        top: 620px;
+    }
+}
